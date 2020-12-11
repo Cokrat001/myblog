@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Традиційний блог</title>
+</head>
+<body bgcolor="#d9ffe8">
+<h1 class="header-title" style="color:#A52A2A">Традиційний блог</h1>
+{% for blog in blogs %}
+
+<h3>{{blog.title}}</h3>
+<hr color = "#47ff91">
+<p>{{blog.text}}</p>
+
+{% endfor %}
+</body>
+</html>
